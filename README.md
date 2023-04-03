@@ -1,2 +1,3 @@
 # Kalit
-🇺🇿 Ochiq manbaali parol menejeri \n🇬🇧 An open source password manager
+🇺🇿 Ochiq manbaali parol menejeri 
+🇬🇧 An open source password manager
