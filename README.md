@@ -7,7 +7,7 @@
 <ul>
 <li> FrontEnd: preferably nextjs for web, electron for desktop and flutter for mobile app, but any suggestion is considered </li>
 <li> BackEnd: SRP and HTTP(S) as protocols, express as a server, sqlite as a database and TypeORM as an orm</li>
-<li> Logika: end-to-end encryption, barcha kriptografik amaliyotlar foydanaluvchi tomonida (client-side) amalga oshiriladi, captcha - cloudflare </li>
+<li> Logika: end-to-end encryption, barcha kriptografik amaliyotlar foydanaluvchi tomonida (client-side) amalga oshiriladi, google recaptcha </li>
   <li>Tugamadi...</li>
 </ul>
 <h3>Sog'bo'lasiz 🖖
