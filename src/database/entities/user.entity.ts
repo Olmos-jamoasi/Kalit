@@ -3,9 +3,9 @@ import { BaseEntity } from "./base.entity";
 
 @Entity({ name: "users" })
 export class Users extends BaseEntity {
-  @Column({ name: "varchar", nullable: false })
+  @Column({ type: "varchar", nullable: false })
   passwordSalt: string;
 
-  @Column({ name: "varchar", nullable: false })
+  @Column({ type: "varchar", nullable: false })
   passwordVerifier: string;
 }

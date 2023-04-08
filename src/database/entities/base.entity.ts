@@ -8,15 +8,15 @@ export abstract class BaseEntity {
   @PrimaryGeneratedColumn("uuid")
   id: string;
 
-  @CreateDateColumn({
-    type: "timestamptz",
-    default: () => "CURRENT_TIMESTAMP",
-  })
-  createDateTime: Date;
+  // @CreateDateColumn({
+  //   type: "timestamp",
+  //   default: () => "CURRENT_TIMESTAMP",
+  // })
+  // createDateTime: Date;
 
-  @UpdateDateColumn({
-    type: "timestamptz",
-    default: () => "CURRENT_TIMESTAMP",
-  })
-  lastChangedDateTime: Date;
+  // @UpdateDateColumn({
+  //   type: "timestamp",
+  //   default: () => "CURRENT_TIMESTAMP",
+  // })
+  // lastChangedDateTime: Date;
 }
