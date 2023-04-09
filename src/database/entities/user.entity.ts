@@ -8,4 +8,7 @@ export class Users extends BaseEntity {
 
   @Column({ type: "varchar", nullable: false })
   passwordVerifier: string;
+
+  @Column({ type: 'varchar', nullable: false })
+  email: string;
 }
